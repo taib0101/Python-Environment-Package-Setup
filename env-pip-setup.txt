@@ -1,0 +1,17 @@
+1. see python local version
+    $ pyenv versions
+    $ python3 --version
+
+2. setup env
+    $ python3 -m venv env
+
+3. enable env
+    $ source env/bin/activate
+
+4. upgrade pip
+    $ python3 -m pip install --upgrade pip
+
+5. install pip tools
+    $ pip3 install pip-tools
+    $ pip3 --version
+

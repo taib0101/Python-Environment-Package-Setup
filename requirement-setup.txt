@@ -1,0 +1,14 @@
+1. previous setup
+    $ python3 -m venv env
+    $ source env/bin/activate
+    $ python3 -m pip install --upgrade pip
+    $ pip3 install pip-tools
+    
+2. see versions of package
+    $ pip3 index versions sqlalchemy
+
+3. setup requirements
+    $ echo "sqlalchemy==2.0.41" > requirements.in
+    $ pip-compile requirements.in
+    $ pip3 install -r requirements.txt
+    

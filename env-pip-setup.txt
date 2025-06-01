@@ -15,3 +15,5 @@
     $ pip3 install pip-tools
     $ pip3 --version
 
+6. deactivate env
+    $ deactivate env/bin/activate
